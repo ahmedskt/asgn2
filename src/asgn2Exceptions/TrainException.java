@@ -13,7 +13,7 @@ public class TrainException extends Exception {
 	 * 
 	 * @param message
 	 *            - An informative message about the problem found which
-	 *            describes the cause of the problem
+	 *            describes the cause of the problem.
 	 */
 	public TrainException(String message) {
 		super("Train Exception: " + message);
